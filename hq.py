@@ -21,7 +21,7 @@ import aniso8601
 #import keep_alive
 #keep_alive.keep_alive()
 
-webhook_url="https://discord.com/api/webhooks/820662212922310677/27bQdBFSVu1Xyb0IhKDGtriFmqJKPEnwLvXFKT0VmNYYXttGK5NDwyRlbx64XvS3Ulx1"
+webhook_url="https://discord.com/api/webhooks/823205802768597042/Jq5_1O7N5yswdWLsMG-0IrXLgsGcolEIwtwtann72oENVsf6JNA8bug21KRFkqJqo8iw"
 
 we="https://discord.com/api/webhooks/819998463844417607/sgivYS5UnzB4sf8Wj5CPe5OMNZGyu9X4_jqaTAq4EYBU06Dy8TrqxEDrrOsvfSyX0nqu"
 
@@ -170,7 +170,7 @@ def connect_websocket(socket_url, auth_token):
                 if countoption1 == maxcount:
                     embed2=discord.Embed(title=f"**GOOGLE RESULT**",description=f"\n**<:one1:807335969853538374> {answers[0]} <a:Rgb:776665881945964556> {countoption1}** <a:greentick:790049601750564876> \n**<:two2:807336054939451492> {answers[1]} <a:Rgb:776665881945964556> {countoption2}** \n**<:three3:807336090897350738> {answers[2]} <a:Rgb:776665881945964556> {countoption3}**",colour=0x00FBFF)
                     embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
-                    #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
+                    #embed2.set_footer(text="Made By Tapan")
                     hook.send(embed=embed2)
                     hq.send(embed=embed2)
                     #hook.send("e") 
@@ -202,7 +202,7 @@ def connect_websocket(socket_url, auth_token):
                 else:
                     embed2=discord.Embed(title=f"**Question {qcnt}/{Fullcnt}**",description=f"[{question}]({google_query})\n**Google Results**\n**<:one1:807335969853538374> {answers[0]} <a:Rgb:776665881945964556> {countoption1}**\n**<:two2:807336054939451492> {answers[1]} <a:Rgb:776665881945964556> {countoption2}**\n**<:three3:807336090897350738> {answers[2]} <a:Rgb:776665881945964556> {countoption3} <a:greentick:790049601750564876> **",colour=0x00FBFF)
                     embed2.set_thumbnail(url="https://is3-ssl.mzstatic.com/image/thumb/Purple113/v4/13/82/d5/1382d5b4-ecea-b99c-0622-e701fa5325ac/HQAppIcon-0-0-1x_U007emarketing-0-0-0-7-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/246x0w.png")
-                    #embed2.set_footer(text="Made By WC \𝐊𝐍𝐈𝐆𝐇𝐓 𝐊𝐈𝐍𝐆#6526")
+                    #embed2.set_footer(text="Made By Tapan")
                     hook.send(embed=embed2)
                     hq.send(embed=embed2)
                     #hook.send("e") 
@@ -266,7 +266,7 @@ def connect_websocket(socket_url, auth_token):
                 embed.add_field(name="**� Total Winners**", value=f"**{winn} <a:2tada:790052631120445441>**", inline=True)
                # embed.add_field(name="**� Prize Money :**", value=f"**5000$**", inline=True)
                 embed.set_thumbnail(url="https://cdn.discordapp.com/attachments/737764195743039488/737768505935659178/giphy1.gif")
-                #embed.set_footer(text=f"Made By ๖ۣۜǤнσsτ☠𝕮𝖍𝖎𝖑𝖉#7252")
+                #embed.set_footer(text=f"Made By Tapan")
                 hook.send(embed=embed)
                 hq.send(embed=embed)
                 #hook2.send(embed=embed)
